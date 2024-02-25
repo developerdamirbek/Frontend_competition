@@ -7,13 +7,122 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Document</title>
   </head>
 
   <body>
+    <div class="sticky" style="position: fixed; bottom: 20px; right: 20px">
+      <a
+        href="#header"
+        class="sticky_top"
+        style="position: sticky; bottom: 20px; left: 20px"
+      >
+        <img src="./assets/icons/top.svg" alt="top" />
+      </a>
+    </div>
     <div class="main_bg">
       <div class="wrapper">
+        <div class="bg-modal">
+          <div class="container modalka">
+            <span class="modal__span"></span>
+            <div class="modal__main_box">
+              <form action="https://echo.htmlacademy.ru" class="modal__box">
+                <div class="modal__inputBox">
+                  <label class="modal__label" for="name">Ism Familiya</label>
+                  <input
+                    class="modal__input"
+                    type="text"
+                    id="name"
+                    placeholder="Ismingini kiriting"
+                    aria-label="Ismingini kiriting"
+                  />
+                </div>
+                <div class="modal__inputBox modal__inputBox2">
+                  <label class="modal__label" for="Companiya"
+                    >Companiyani kiriting</label
+                  >
+                  <input
+                    class="modal__input"
+                    type="text"
+                    id="Companiya"
+                    placeholder="Companiya"
+                    aria-label="Companiya"
+                  />
+                </div>
+                <div class="modal__inputBox modal__inputBox3">
+                  <label class="modal__label" for="Username"
+                    >Telegram username</label
+                  >
+                  <input
+                    class="modal__input"
+                    type="text"
+                    id="Username"
+                    placeholder="Username"
+                    aria-label="Username"
+                  />
+                </div>
+                <div class="modal__inputBox modal__inputBox3">
+                  <label class="modal__label" for="+99899">Phone number</label>
+                  <input
+                    class="modal__input"
+                    type="text"
+                    id="+99899"
+                    placeholder="+998 99"
+                    aria-label="Username"
+                  />
+                </div>
+                <div class="modal__inputBox modal__inputBox4">
+                  <label class="modal__label" for="+Sayni"
+                    >Sayni turini tanlang</label
+                  >
+                  <select class="modal__select" name="Sayni" id="Sayni">
+                    <option value="Corparative sayt">Corparative sayt</option>
+                    <option value="Corparative sayt">Corparative sayt</option>
+                  </select>
+                </div>
+                <div class="modal__inputBox modal__inputBox4">
+                  <label class="modal__label" for="Sizga"
+                    >Sizga bo’glanish usulini tanlang</label
+                  >
+                  <select class="modal__select" name="Sizga" id="Sizga">
+                    <option value="Corparative sayt">Telegram</option>
+                    <option value="Corparative sayt">Telegram</option>
+                  </select>
+                </div>
+                <div class="modal__inputBox modal__inputBox5">
+                  <label class="modal__label" for="Message">Message</label>
+                  <textarea
+                    class="modal__textarea"
+                    name="Message"
+                    id="Message"
+                    rows="10"
+                  ></textarea>
+                </div>
+                <button class="modal__button">Jo’natish</button>
+              </form>
+              <div>
+                <h2 class="modal__title">Ux & Ui design</h2>
+                <p class="modal__text">
+                  In the current tech scenario, one can’t predict what device
+                  their user will use to interact with a product. This is why
+                  it’s always a good idea to build something that supports all
+                  devices. However it is nearly impossible to design for every
+                  screen size with so many .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <header id="header">
           <div class="container">
             <div class="nav">
@@ -49,22 +158,22 @@
                   <img src="./assets/icons/menu.svg" alt="menu" />
                 </button>
                 <div id="menu_modal" class="mobile_menu__modal">
-                <div class="mobile_menu__header">
-                  <span class="menu_title"> Biz ofisdamiz </span>
-                  <button class="close_btn">&times;</button>
+                  <div class="mobile_menu__header">
+                    <span class="menu_title"> Biz ofisdamiz </span>
+                    <button class="close_btn">&times;</button>
+                  </div>
+                  <ul class="mobile_menu__list">
+                    <li class="mobile_menu__item">
+                      <a href="./services.html"> Services </a>
+                    </li>
+                    <li class="mobile_menu__item">
+                      <a href="./portfolio.html"> Portfolio </a>
+                    </li>
+                    <li class="mobile_menu__item">
+                      <a href="./about.html"> About Us </a>
+                    </li>
+                  </ul>
                 </div>
-                <ul class="mobile_menu__list">
-                  <li class="mobile_menu__item">
-                    <a href="./services.html"> Services </a>
-                  </li>
-                  <li class="mobile_menu__item">
-                    <a href="./portfolio.html"> Portfolio </a>
-                  </li>
-                  <li class="mobile_menu__item">
-                    <a href="./about.html"> About Us </a>
-                  </li>
-                </ul>
-              </div>
               </div>
             </div>
           </div>
@@ -87,13 +196,236 @@
           </section>
           <section class="hero-content">
             <div class="container">
-              <p>
+              <p class="hero-title">
                 Soff iTga xush kelibsiz. Xizmat ?The main value of the
                 onboarding process needs to serve, is to set initial
                 expectations from the app, and to get the minimum information we
                 need from the user in order to get started. I did this by
                 showing a simple walkthrough and
               </p>
+              <button type="submit" class="hero-btn-1">
+                Bog’lanish
+                <img src="./assets/icons/right-arrow.svg" alt="" />
+              </button>
+            </div>
+          </section>
+          <section class="design_services" style="margin-top: 20px">
+            <div class="container">
+              <h2 class="services_title">Design services</h2>
+            </div>
+            <div class="swiper">
+              <div class="swiper-wrapper carousel">
+                <div class="swiper-slide">
+                  <div class="carousel_block">
+                    <h3 class="slide_title">App Design</h3>
+                    <p class="slide_info">
+                      An effective process, method, and offers to cover your
+                      daily basis needs with the app
+                    </p>
+                    <button class="slider_btn">Read more</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="carousel_block">
+                    <h3 class="slide_title">Web Design</h3>
+                    <p class="slide_info">
+                      With competition getting only fierce, compiling the latest
+                      trends at regular intervals becomes inevitable.
+                    </p>
+                    <button class="slider_btn">Read more</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="carousel_block">
+                    <h3 class="slide_title">Ux &Ui design</h3>
+                    <p class="slide_info">
+                      Among the top UI design trends for 2022, 3D illustrations
+                      seem to have
+                    </p>
+                    <button class="slider_btn">Read more</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="carousel_block">
+                    <h3 class="slide_title">Logo design</h3>
+                    <p class="slide_info">
+                      Another UI trend that is becoming quite popular among
+                      designers is Glassmorphism. Followed by Neumorphism which
+                      was further f
+                    </p>
+                    <button class="slider_btn">Read more</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="carousel_block">
+                    <h3 class="slide_title">Graphic Design</h3>
+                    <p class="slide_info">
+                      With competition getting only fierce, compiling the latest
+                      trends at regular intervals becomes inevitable.
+                    </p>
+                    <button class="slider_btn">Read more</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="carousel_block">
+                    <h3 class="slide_title">Motion Design</h3>
+                    <p class="slide_info">
+                      With competition getting only fierce, compiling the latest
+                      trends at regular intervals becomes inevitable.
+                    </p>
+                    <button class="slider_btn">Read more</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="carousel_block">
+                    <h3 class="slide_title">App Design</h3>
+                    <p class="slide_info">
+                      With competition getting only fierce, compiling the latest
+                      trends at regular intervals becomes inevitable.
+                    </p>
+                    <button class="slider_btn">Read more</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="carousel_block">
+                    <h3 class="slide_title">Interior Design</h3>
+                    <p class="slide_info">
+                      With competition getting only fierce, compiling the latest
+                      trends at regular intervals becomes inevitable.
+                    </p>
+                    <button class="slider_btn">Read more</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="carousel_block">
+                    <h3 class="slide_title">Animation Design</h3>
+                    <p class="slide_info">
+                      With competition getting only fierce, compiling the latest
+                      trends at regular intervals becomes inevitable.
+                    </p>
+                    <button class="slider_btn">Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container relative">
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </section>
+          <section class="portfolio_hero">
+            <div class="container portfolio_hero__container">
+              <h2 class="portfolio_hero__title">Portfolio</h2>
+              <ul class="portfolio_hero__list">
+                <li class="portfolio_hero__content">
+                  <div class="portfolio_hero__img">
+                    <img
+                      src="./assets/images/portfolio1.png"
+                      alt="Make sure to plan the hierarchy of your project."
+                    />
+                  </div>
+                  <div class="portfolio_hero__text_box">
+                    <p class="portfolio_hero__text">
+                      Make sure to plan the hierarchy of your project.
+                    </p>
+                    <a href="#" class="portfolio_hero__link">Read more</a>
+                  </div>
+                  <div class="portfolio_hero__blur"></div>
+                </li>
+                <li class="portfolio_hero__content">
+                  <div class="portfolio_hero__img">
+                    <img
+                      src="./assets/images/portfolio2.png"
+                      alt="Make sure to plan the hierarchy of your project."
+                    />
+                  </div>
+                  <div class="portfolio_hero__text_box">
+                    <p class="portfolio_hero__text">
+                      Make sure to plan the hierarchy of your project.
+                    </p>
+                    <a href="#" class="portfolio_hero__link">Read more</a>
+                  </div>
+                  <div class="portfolio_hero__blur"></div>
+                </li>
+                <!-- 2 -->
+                <li class="portfolio_hero__content">
+                  <div class="portfolio_hero__img">
+                    <img
+                      src="./assets/images/portfolio3.png"
+                      alt="Make sure to plan the hierarchy of your project."
+                    />
+                  </div>
+                  <div class="portfolio_hero__text_box">
+                    <p class="portfolio_hero__text">
+                      Make sure to plan the hierarchy of your project.
+                    </p>
+                    <a href="#" class="portfolio_hero__link">Read more</a>
+                  </div>
+                  <div class="portfolio_hero__blur"></div>
+                </li>
+                <li class="portfolio_hero__content">
+                  <div class="portfolio_hero__img">
+                    <img
+                      src="./assets/images/portfolio4.png"
+                      alt="Make sure to plan the hierarchy of your project."
+                    />
+                  </div>
+                  <div class="portfolio_hero__text_box">
+                    <p class="portfolio_hero__text">
+                      Make sure to plan the hierarchy of your project.
+                    </p>
+                    <a href="#" class="portfolio_hero__link">Read more</a>
+                  </div>
+                  <div class="portfolio_hero__blur"></div>
+                </li>
+                <!-- 3 -->
+                <li class="portfolio_hero__content">
+                  <div class="portfolio_hero__img">
+                    <img
+                      src="./assets/images/portfolio5.png"
+                      alt="Make sure to plan the hierarchy of your project."
+                    />
+                  </div>
+                  <div class="portfolio_hero__text_box">
+                    <p class="portfolio_hero__text">
+                      Make sure to plan the hierarchy of your project.
+                    </p>
+                    <a href="#" class="portfolio_hero__link">Read more</a>
+                  </div>
+                  <div class="portfolio_hero__blur"></div>
+                </li>
+                <li class="portfolio_hero__content">
+                  <div class="portfolio_hero__img">
+                    <img
+                      src="./assets/images/portfolio6.png"
+                      alt="Make sure to plan the hierarchy of your project."
+                    />
+                  </div>
+                  <div class="portfolio_hero__text_box">
+                    <p class="portfolio_hero__text">
+                      Make sure to plan the hierarchy of your project.
+                    </p>
+                    <a href="#" class="portfolio_hero__link">Read more</a>
+                  </div>
+                  <div class="portfolio_hero__blur"></div>
+                </li>
+                <!-- 4 -->
+              </ul>
+            </div>
+          </section>
+          <section class="users-bg"></section>
+          <section style="margin-bottom: 20px">
+            <div class="container">
+              <p class="hero-title">
+                Soff iTga xush kelibsiz. Xizmat ?The main value of the
+                onboarding process needs to serve, is to set initial
+                expectations from the app, and to get the minimum information we
+                need from the user in order to get started. I did this by
+                showing a simple walkthrough and
+              </p>
+              <button type="submit" class="hero-btn-1">
+                Bog’lanish
+                <img src="./assets/icons/right-arrow.svg" alt="" />
+              </button>
             </div>
           </section>
         </main>
@@ -174,4 +506,5 @@
   </body>
 
   <script type="module" src="./js/main.js"></script>
+  <script src="./js/home.js"></script>
 </html>
