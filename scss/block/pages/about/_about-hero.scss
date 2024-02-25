@@ -5,4 +5,41 @@
   font-weight: 700;
   line-height: 48px;
   margin-bottom: 51px;
+  padding-top: 65px;
+}
+
+
+.about_bg {
+  background-image: url(../../../../assets/images/about-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 415px;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.about_text {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  margin-bottom: 35px;
+
+
+}
+
+.about_text span {
+  color: #0040DD;
+}
+
+.about_slider__title {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
