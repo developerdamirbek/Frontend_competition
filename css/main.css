@@ -93,24 +93,16 @@ body {
 }
 
 .wrapper {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
-=======
-<<<<<<< HEAD
-=======
   display: -webkit-box;
   display: -ms-flexbox;
->>>>>>> main
->>>>>>> main
+
   display: flex;
   flex-direction: column;
 }
 
 .main_bg {
->>>>>>> main
   background-image: url(../assets/images/main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +113,7 @@ footer {
   margin-top: auto;
 }
 
-<<<<<<< HEAD
+
 .about_hero__title {
   color: rgb(255, 255, 255);
   font-family: Manrope;
@@ -131,8 +123,6 @@ footer {
   margin-bottom: 51px;
 }
 
-=======
-<<<<<<< HEAD
 header {
   background: #000;
 }
@@ -555,14 +545,10 @@ footer {
     letter-spacing: 0%;
   }
 }
-=======
-<<<<<<< HEAD
 .portfolio_hero__title {
   color: rgb(255, 255, 255);
   font-family: Manrope;
-=======
->>>>>>> main
->>>>>>> main
+
 .design_services {
   margin-bottom: 100px;
 }
@@ -574,6 +560,7 @@ footer {
   line-height: 48px;
   margin-bottom: 30px;
 }
+
 
 .swiper {
   width: 100%;
@@ -820,9 +807,6 @@ footer {
     font-size: 12px;
     line-height: 20px;
     padding: 8px 15px 8px 13px;
-<<<<<<< HEAD
-=======
-=======
 .swiper {
   width: 100%;
 }
@@ -905,8 +889,8 @@ footer {
 
 @media screen and (max-width: 420px) {
   .swiper-slide {
+    max-width: 100%;
     width: 100%;
->>>>>>> main
->>>>>>> main
+
   }
-}/*# sourceMappingURL=main.css.map */
+}
