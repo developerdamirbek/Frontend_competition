@@ -54,6 +54,8 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
+}
+.main_bg {
   background-image: url(../assets/images/main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
