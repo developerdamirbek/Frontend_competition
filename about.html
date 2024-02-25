@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
@@ -13,41 +16,159 @@
         <div class="wrapper">
             <header id="header">
                 <div class="container">
-                    <div class="nav">
-                        <div class="nav_logo">
-                            <img src="./assets/icons/logo.svg" alt="logo" />
-                        </div>
-                        <div class="nav_lists">
-                            <ul class="nav_list">
-                                <li class="nav_list-item">
-                                    <a class="nav_list-item-link" href="./services.html">Services</a>
-                                </li>
-                                <li class="nav_list-item">
-                                    <a class="nav_list-item-link" href="./portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav_list-item">
-                                    <a class="nav_list-item-link" href="./about.html">About us</a>
-                                </li>
-                            </ul>
-                            <div class="nav_lang">
-                                <span class="uz">Uz</span>
-                                <span class="ru">Ru</span>
-                                <span class="en">En</span>
-                            </div>
-                        </div>
-                        <div class="menu-icon" onClic>
-                            <img src="./assets/icons/menu.svg" alt="menu" />
-                        </div>
+                  <div class="nav">
+                    <div class="nav_logo">
+                      <img src="./assets/icons/logo.svg" alt="logo" />
                     </div>
+                    <div class="nav_lists">
+                      <ul class="nav_list">
+                        <li class="nav_list-item">
+                          <a class="nav_list-item-link" href="./services.html"
+                            >Services</a
+                          >
+                        </li>
+                        <li class="nav_list-item">
+                          <a class="nav_list-item-link" href="./portfolio.html"
+                            >Portfolio</a
+                          >
+                        </li>
+                        <li class="nav_list-item">
+                          <a class="nav_list-item-link" href="./about.html"
+                            >About us</a
+                          >
+                        </li>
+                      </ul>
+                      <div class="nav_lang">
+                        <span class="uz">Uz</span>
+                        <span class="ru">Ru</span>
+                        <span class="en">En</span>
+                      </div>
+                    </div>
+                    <div class="menu-icon">
+                      <button class="menu_btn">
+                        <img src="./assets/icons/menu.svg" alt="menu" />
+                      </button>
+                      <div id="menu_modal" class="mobile_menu__modal">
+                        <div class="mobile_menu__header">
+                          <span class="menu_title"> Biz ofisdamiz </span>
+                          <button class="close_btn">&times;</button>
+                        </div>
+                        <ul class="mobile_menu__list">
+                          <li class="mobile_menu__item">
+                            <a href="./services.html"> Services </a>
+                          </li>
+                          <li class="mobile_menu__item">
+                            <a href="./portfolio.html"> Portfolio </a>
+                          </li>
+                          <li class="mobile_menu__item">
+                            <a href="./about.html"> About Us </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </header>
+              </header>
             <main>
                 <section class="about_hero">
+                    
                     <div class="container about_hero__container">
                         <h2 class="about_hero__title">Biz haqimizda</h2>
                     </div>
                 </section>
-                <section class="about_bg"></section>
+                <section class="about_bg">
+                   <div class="container">
+                    <div class="hero-btns">
+                        <button type="submit" class="hero-btn-1">
+                          Bog’lanish
+                          <img src="./assets/icons/right-arrow.svg" alt="" />
+                        </button>
+                        <button type="submit" class="hero-btn-2">
+                          Breif to’ldirish
+                          <img src="./assets/icons/brief.svg" alt="" />
+                        </button>
+                      </div>
+                   </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <p class="about_text">
+                            Soff iTga xush kelibsiz. Xizmat ?The main value of the onboarding process needs to serve, is to set initial expectations from the app, and to get the minimum information we need from the user in order to get started. I did this by showing a simple walkthrough and 
+                        </p>
+                        <p class="about_text">
+                            It’s hard to believe that the year is coming to an end. We are all hoping for a better and brighter 2022, and designers are getting us <span>closer to that ideal right</span> now with all the mobile app designs they’ve released recently. This quarter we’ve kept our eyes open for the best designs, and the apps we found certainly didn’t disappoint. Let’s jump right in
+                        </p>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <h2 class="about_slider__title">Gallery</h2>
+                        <div class="swiper">
+                            <div class="swiper-wrapper slider_about">
+                                <div class="swiper-slide carousel">
+                                    <div class="about_slider">
+                                        <span class="slider_span">
+                                            Biz ofisdamiz
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide carousel">
+                                    <div class="about_slider">
+                                        <span class="slider_span">
+                                            Biz ofisdamiz
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide carousel">
+                                    <div class="about_slider">
+                                        <span class="slider_span">
+                                            Biz ofisdamiz
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide carousel">
+                                    <div class="about_slider">
+                                        <span class="slider_span">
+                                            Biz ofisdamiz
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide carousel">
+                                    <div class="about_slider">
+                                        <span class="slider_span">
+                                            Biz ofisdamiz
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide carousel">
+                                    <div class="about_slider">
+                                        <span class="slider_span">
+                                            Biz ofisdamiz
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide carousel">
+                                    <div class="about_slider">
+                                        <span class="slider_span">
+                                            Biz ofisdamiz
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide carousel">
+                                    <div class="about_slider">
+                                        <span class="slider_span">
+                                            Biz ofisdamiz
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scrollbar">
+                                <div class="swiper-scrollbar bar"></div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
             <footer>
                 <div class="container">
@@ -107,6 +228,7 @@
             </footer>
         </div>
     </div>
+    <script type="module" src="./js/about.js"></script>
 </body>
 
 </html>

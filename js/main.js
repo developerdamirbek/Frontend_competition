@@ -31,9 +31,9 @@ const closeMenu = document.querySelector(".close_btn")
 const menuModal = document.querySelector("#menu_modal")
 
 openMenu.addEventListener("click", () => {
-    menuModal.style.transform = 'translateX(0)';
-});
+    menuModal.style.display = 'block'
+})
 
 closeMenu.addEventListener("click", () => {
-    menuModal.style.transform = 'translateX(120%)';
-});
+    menuModal.style.display = 'none'
+})

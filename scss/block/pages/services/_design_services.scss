@@ -11,7 +11,7 @@
 }
 
 
-.swiper-slide {
+.slide-item {
     border: 1px solid #fff;
     padding: 40px;
     transition: all 0.3s;
@@ -50,7 +50,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
-    max-width: 305px;
+    width: 305px;
 }
 
 .slider_btn {
@@ -89,8 +89,10 @@
     background-color: #fff;
 }
 
+
+
 @media screen and (max-width: 420px) {
-    .swiper-slide {
-        max-width: 100%;
+    .slide-item {
+        width: 80%;
     }
 }

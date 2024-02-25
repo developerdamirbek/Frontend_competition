@@ -39,6 +39,7 @@ header {
   letter-spacing: 0%;
   opacity: 0.5;
 }
+
 .menu_btn {
   background-color: transparent;
   border: none;
@@ -68,6 +69,7 @@ header {
   color: rgb(255, 255, 255);
   opacity: 0.3;
 }
+
 .menu-icon {
   display: none;
 }
@@ -141,9 +143,11 @@ header {
   font-weight: 700;
   line-height: 23px;
 }
+
 .modal {
   height: 100vh;
 }
+
 .modal__span {
   margin-top: 25px;
   margin-bottom: 50px;
@@ -151,12 +155,14 @@ header {
   height: 1px;
   background-color: #fff;
 }
+
 .modal__inputBox {
   display: flex;
   flex-direction: column;
   gap: 10px;
   flex-grow: 1;
 }
+
 .modal__input {
   color: rgb(255, 255, 255);
   font-family: Manrope;
@@ -172,6 +178,7 @@ header {
   max-width: 393px;
   width: 100%;
 }
+
 .modal__label {
   color: rgb(255, 255, 255);
   font-family: Manrope;
@@ -180,21 +187,25 @@ header {
   line-height: 23px;
   outline-color: #fff;
 }
+
 .modal__inputBox2 {
   max-width: 288px;
   width: 100%;
   flex-grow: 1;
 }
+
 .modal__inputBox3 {
   max-width: 338px;
   width: 100%;
 }
+
 .modal__box {
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;
   column-gap: 30px;
 }
+
 .modal__select {
   color: rgb(255, 255, 255);
   font-family: Manrope;
@@ -210,9 +221,11 @@ header {
   display: flex;
   gap: 20px;
 }
+
 .modal__inputBox4 {
   max-width: 287px;
 }
+
 .modal__textarea {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 25px;
@@ -220,31 +233,41 @@ header {
   background: rgba(255, 255, 255, 0.1);
   resize: none;
 }
+
 .modal__inputBox5 {
   width: 100%;
 }
+
 .modal__main_box {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 30px;
 }
+
 .bg-modal {
-  backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, 0.263);
-  z-index: 1111;
-  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-image: url(../../assets/images/brief-modal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000;
+  position: fixed;
   display: none;
 }
+
 .modalka {
   display: none;
-  position: absolute;
   z-index: 1111;
-  background: #ff0000c9;
   backdrop-filter: calc(15px);
   top: 0;
   left: 0;
   right: 0;
 }
+
 .modal__title {
   color: rgb(255, 255, 255);
   font-family: Manrope;
@@ -253,6 +276,7 @@ header {
   line-height: 40px;
   margin-bottom: 30px;
 }
+
 .modal__text {
   color: rgb(255, 255, 255);
   font-family: Manrope;
@@ -262,6 +286,11 @@ header {
   letter-spacing: 0%;
   text-align: left;
 }
+
+.header {
+  background-color: transparent;
+}
+
 .modal__button {
   color: rgb(255, 255, 255);
   font-family: Manrope;
@@ -276,9 +305,11 @@ header {
   gap: 6px;
   border: none;
   transition: all 0.4s ease;
+
   &:hover {
     background: rgb(1, 49, 171);
   }
+
   &::after {
     content: "";
     display: block;
@@ -307,9 +338,11 @@ header {
     justify-content: space-between;
     padding: 35px 0;
   }
+
   .nav_logo img {
     width: 71px;
   }
+
   .nav_lists {
     display: flex;
     align-items: center;
@@ -370,6 +403,7 @@ header {
     display: flex;
     flex-direction: column-reverse;
   }
+
   .modal__text {
     margin-bottom: 40px;
   }

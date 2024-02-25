@@ -20,7 +20,155 @@
   </head>
 
   <body>
+
     <div id="header"></div>
+
+    <div class="bg-modal">
+      <div class="container modalka">
+        <header id="header" class="header">
+          <div class="container">
+            <div class="nav">
+              <div class="nav_logo">
+                <img src="./assets/icons/logo.svg" alt="logo" />
+              </div>
+              <div class="nav_lists">
+                <ul class="nav_list">
+                  <li class="nav_list-item">
+                    <a class="nav_list-item-link" href="./services.html"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="nav_list-item">
+                    <a class="nav_list-item-link" href="./portfolio.html"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li class="nav_list-item">
+                    <a class="nav_list-item-link" href="./about.html"
+                      >About us</a
+                    >
+                  </li>
+                </ul>
+                <div class="nav_lang">
+                  <span class="uz">Uz</span>
+                  <span class="ru">Ru</span>
+                  <span class="en">En</span>
+                </div>
+              </div>
+              <div class="menu-icon">
+                <button class="menu_btn">
+                  <img src="./assets/icons/menu.svg" alt="menu" />
+                </button>
+                <div id="menu_modal" class="mobile_menu__modal">
+                  <div class="mobile_menu__header">
+                    <span class="menu_title"> Biz ofisdamiz </span>
+                    <button class="close_btn">&times;</button>
+                  </div>
+                  <ul class="mobile_menu__list">
+                    <li class="mobile_menu__item">
+                      <a href="./services.html"> Services </a>
+                    </li>
+                    <li class="mobile_menu__item">
+                      <a href="./portfolio.html"> Portfolio </a>
+                    </li>
+                    <li class="mobile_menu__item">
+                      <a href="./about.html"> About Us </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="modal__main_box">
+          <form action="https://echo.htmlacademy.ru" class="modal__box">
+            <div class="modal__inputBox">
+              <label class="modal__label" for="name">Ism Familiya</label>
+              <input
+                class="modal__input"
+                type="text"
+                id="name"
+                placeholder="Ismingini kiriting"
+                aria-label="Ismingini kiriting"
+              />
+            </div>
+            <div class="modal__inputBox modal__inputBox2">
+              <label class="modal__label" for="Companiya"
+                >Companiyani kiriting</label
+              >
+              <input
+                class="modal__input"
+                type="text"
+                id="Companiya"
+                placeholder="Companiya"
+                aria-label="Companiya"
+              />
+            </div>
+            <div class="modal__inputBox modal__inputBox3">
+              <label class="modal__label" for="Username"
+                >Telegram username</label
+              >
+              <input
+                class="modal__input"
+                type="text"
+                id="Username"
+                placeholder="Username"
+                aria-label="Username"
+              />
+            </div>
+            <div class="modal__inputBox modal__inputBox3">
+              <label class="modal__label" for="+99899">Phone number</label>
+              <input
+                class="modal__input"
+                type="text"
+                id="+99899"
+                placeholder="+998 99"
+                aria-label="Username"
+              />
+            </div>
+            <div class="modal__inputBox modal__inputBox4">
+              <label class="modal__label" for="+Sayni"
+                >Sayni turini tanlang</label
+              >
+              <select class="modal__select" name="Sayni" id="Sayni">
+                <option value="Corparative sayt">Corparative sayt</option>
+                <option value="Corparative sayt">Corparative sayt</option>
+              </select>
+            </div>
+            <div class="modal__inputBox modal__inputBox4">
+              <label class="modal__label" for="Sizga"
+                >Sizga bo’glanish usulini tanlang</label
+              >
+              <select class="modal__select" name="Sizga" id="Sizga">
+                <option value="Corparative sayt">Telegram</option>
+                <option value="Corparative sayt">Telegram</option>
+              </select>
+            </div>
+            <div class="modal__inputBox modal__inputBox5">
+              <label class="modal__label" for="Message">Message</label>
+              <textarea
+                class="modal__textarea"
+                name="Message"
+                id="Message"
+                rows="10"
+              ></textarea>
+            </div>
+            <button class="modal__button">Jo’natish</button>
+          </form>
+          <div>
+            <h2 class="modal__title">Ux & Ui design</h2>
+            <p class="modal__text">
+              In the current tech scenario, one can’t predict what device
+              their user will use to interact with a product. This is why
+              it’s always a good idea to build something that supports all
+              devices. However it is nearly impossible to design for every
+              screen size with so many .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="sticky" style="position: fixed; bottom: 20px; right: 20px">
       <a
         href="#header"
@@ -32,97 +180,7 @@
     </div>
     <div class="main_bg">
       <div class="wrapper">
-        <div class="bg-modal">
-          <div class="container modalka">
-            <span class="modal__span"></span>
-            <div class="modal__main_box">
-              <form action="https://echo.htmlacademy.ru" class="modal__box">
-                <div class="modal__inputBox">
-                  <label class="modal__label" for="name">Ism Familiya</label>
-                  <input
-                    class="modal__input"
-                    type="text"
-                    id="name"
-                    placeholder="Ismingini kiriting"
-                    aria-label="Ismingini kiriting"
-                  />
-                </div>
-                <div class="modal__inputBox modal__inputBox2">
-                  <label class="modal__label" for="Companiya"
-                    >Companiyani kiriting</label
-                  >
-                  <input
-                    class="modal__input"
-                    type="text"
-                    id="Companiya"
-                    placeholder="Companiya"
-                    aria-label="Companiya"
-                  />
-                </div>
-                <div class="modal__inputBox modal__inputBox3">
-                  <label class="modal__label" for="Username"
-                    >Telegram username</label
-                  >
-                  <input
-                    class="modal__input"
-                    type="text"
-                    id="Username"
-                    placeholder="Username"
-                    aria-label="Username"
-                  />
-                </div>
-                <div class="modal__inputBox modal__inputBox3">
-                  <label class="modal__label" for="+99899">Phone number</label>
-                  <input
-                    class="modal__input"
-                    type="text"
-                    id="+99899"
-                    placeholder="+998 99"
-                    aria-label="Username"
-                  />
-                </div>
-                <div class="modal__inputBox modal__inputBox4">
-                  <label class="modal__label" for="+Sayni"
-                    >Sayni turini tanlang</label
-                  >
-                  <select class="modal__select" name="Sayni" id="Sayni">
-                    <option value="Corparative sayt">Corparative sayt</option>
-                    <option value="Corparative sayt">Corparative sayt</option>
-                  </select>
-                </div>
-                <div class="modal__inputBox modal__inputBox4">
-                  <label class="modal__label" for="Sizga"
-                    >Sizga bo’glanish usulini tanlang</label
-                  >
-                  <select class="modal__select" name="Sizga" id="Sizga">
-                    <option value="Corparative sayt">Telegram</option>
-                    <option value="Corparative sayt">Telegram</option>
-                  </select>
-                </div>
-                <div class="modal__inputBox modal__inputBox5">
-                  <label class="modal__label" for="Message">Message</label>
-                  <textarea
-                    class="modal__textarea"
-                    name="Message"
-                    id="Message"
-                    rows="10"
-                  ></textarea>
-                </div>
-                <button class="modal__button">Jo’natish</button>
-              </form>
-              <div>
-                <h2 class="modal__title">Ux & Ui design</h2>
-                <p class="modal__text">
-                  In the current tech scenario, one can’t predict what device
-                  their user will use to interact with a product. This is why
-                  it’s always a good idea to build something that supports all
-                  devices. However it is nearly impossible to design for every
-                  screen size with so many .
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <header>
           <div class="container">
