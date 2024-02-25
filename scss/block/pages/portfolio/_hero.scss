@@ -1,0 +1,68 @@
+.portfolio_hero__title {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+.portfolio_hero__text {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 27px;
+  width: 50%;
+}
+.portfolio_hero__link {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 10px 17px 10px 15px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  &::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../../../assets/icons/button-arrow.svg");
+  }
+}
+.portfolio_hero__text_box {
+  padding: 16px 20px;
+  border-radius: 66px;
+  max-width: 90%;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+  &:hover {
+    box-shadow: inset -21.67px 21.67px 21.67px 0px rgba(255, 255, 255, 0.1),
+      inset 21.67px -21.67px 21.67px 0px rgba(149, 149, 149, 0.1);
+    backdrop-filter: blur(43.33px);
+    background: rgba(196, 196, 196, 0.1);
+  }
+}
+.portfolio_hero__content {
+  position: relative;
+  max-width: 613px;
+  width: 100%;
+  &:hover .portfolio_hero__text_box {
+    opacity: 10;
+  }
+}
+// @media screen and (max-width:"") {
+
+// }
