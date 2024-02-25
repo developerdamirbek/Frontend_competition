@@ -39,7 +39,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: 'Manrope';
+  font-family: "Manrope";
 }
 
 .container {
@@ -54,4 +54,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+}
+footer {
+  margin-top: auto;
 }
