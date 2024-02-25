@@ -93,6 +93,11 @@ body {
 }
 
 .wrapper {
+<<<<<<< HEAD
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> main
   display: flex;
   flex-direction: column;
 }
@@ -108,15 +113,25 @@ footer {
   margin-top: auto;
 }
 
+<<<<<<< HEAD
 .portfolio_hero__title {
   color: rgb(255, 255, 255);
   font-family: Manrope;
+=======
+.design_services {
+  margin-bottom: 100px;
+}
+
+.services_title {
+  color: rgb(255, 255, 255);
+>>>>>>> main
   font-size: 35px;
   font-weight: 700;
   line-height: 48px;
   margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 .portfolio_hero__text {
   color: rgb(255, 255, 255);
   font-family: Manrope;
@@ -268,5 +283,102 @@ footer {
     font-size: 12px;
     line-height: 20px;
     padding: 8px 15px 8px 13px;
+=======
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  border: 1px solid #fff;
+  padding: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  max-width: 406px;
+  height: 510px;
+}
+.swiper-slide:hover {
+  background: url(../../../../assets/images/slide-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel {
+  margin-bottom: 100px;
+}
+
+.slide_title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.carousel_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 132px;
+  height: 100%;
+}
+
+.slide_info {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  max-width: 305px;
+}
+
+.slider_btn {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  width: 129px;
+  cursor: pointer;
+}
+.slider_btn::after {
+  content: "";
+  background-image: url(../../../../assets/icons/right-arrow.svg);
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+}
+
+.relative {
+  position: relative;
+}
+
+.swiper-scrollbar {
+  background-color: #606061;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+  .swiper-slide {
+    width: 100%;
+>>>>>>> main
   }
 }/*# sourceMappingURL=main.css.map */
