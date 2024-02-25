@@ -89,10 +89,20 @@
     background-color: #fff;
 }
 
+.design_services {
+    margin-top: 157px;
+}
 
+@media screen and (max-width: 580px) {
+    .design_services {
+        margin-top: 103px;
+    }
+}
 
 @media screen and (max-width: 420px) {
     .slide-item {
         width: 80%;
     }
+    
+    
 }
