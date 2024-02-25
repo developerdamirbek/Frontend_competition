@@ -19,7 +19,7 @@ function initializeSwiper() {
 
 initializeSwiper();
 
-window.addEventListener('resize', function() {
+window.addEventListener('resize', function () {
     initializeSwiper();
 });
 
