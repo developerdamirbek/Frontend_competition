@@ -99,4 +99,14 @@ body {
 
 footer {
   margin-top: auto;
+}
+
+.main_bg {
+  background-image: url("../../../../assets/images/main-bg.png");
+  background-size: cover;
+  background-color: #1C1C1E;
+}
+
+.servise_hero__container {
+  padding-top: 65px;
 }/*# sourceMappingURL=main.css.map */
