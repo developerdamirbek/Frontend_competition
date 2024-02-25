@@ -123,6 +123,10 @@ footer {
   margin-top: auto;
 }
 
+button:hover {
+  background-color: #040831;
+}
+
 header {
   background: #000;
   position: fixed;
@@ -660,6 +664,7 @@ footer {
   padding: 9px 20px;
   width: 100%;
   margin-bottom: 17px;
+  color: #fff;
   outline: none;
 }
 
@@ -1253,7 +1258,7 @@ footer {
   height: 415px;
   position: relative;
   background-position: center;
-  margin-top: 156px;
+  margin-top: 190px;
 }
 
 .hero-btns {
@@ -1377,6 +1382,7 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     gap: 30px;
+    margin-top: 20px;
     position: absolute;
     top: -20px;
     z-index: 9;
