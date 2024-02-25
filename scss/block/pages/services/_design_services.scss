@@ -1,3 +1,7 @@
+.design_services {
+    margin-bottom: 100px;
+}
+
 .services_title {
     color: rgb(255, 255, 255);
     font-size: 35px;
@@ -6,20 +10,27 @@
     margin-bottom: 30px;
 }
 
+.swiper {
+    width: 100%;
+}
 
 .swiper-slide {
     border: 1px solid #fff;
     padding: 40px;
-    transition: all 0.4s ease;
+    transition: all 0.3s;
     max-width: 406px;
     height: 510px;
+
     &:hover {
         background: url(../../../../assets/images/slide-bg.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        transition-duration: 0.4s;
     }
+}
+
+.carousel {
+    margin-bottom: 100px;
 }
 
 .slide_title {
@@ -58,6 +69,7 @@
     align-items: center;
     gap: 5px;
     width: 129px;
+    cursor: pointer;
 
     &::after {
         content: '';
@@ -66,4 +78,24 @@
         width: 22px;
         display: inline-block;
     }
+}
+
+.relative {
+    position: relative;
+}
+
+.swiper-scrollbar {
+    background-color: #606061;
+}
+
+.swiper-scrollbar-drag {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+
+            .swiper-slide {
+                width: 100%; // Ensure each slide takes full width
+            }
+
 }
