@@ -35,11 +35,13 @@ img {
 }
 
 body {
+  width: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: "Manrope";
+
 }
 
 .container {
@@ -54,6 +56,10 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url(../assets/images/main-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1c1c1c;
 }
 footer {
   margin-top: auto;
