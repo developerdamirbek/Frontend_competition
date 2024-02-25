@@ -1,0 +1,22 @@
+.about_swipper__title {
+  margin-bottom: 30px;
+}
+.swiper-button-prev {
+  &::after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 13px;
+    background-image: url("../../../../assets/icons/slider-arrow.svg");
+  }
+}
+.swiper-button-next {
+  &::after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 13px;
+    transform: rotate(180deg);
+    background-image: url("../../../../assets/icons/slider-arrow.svg");
+  }
+}
