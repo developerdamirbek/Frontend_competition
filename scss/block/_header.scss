@@ -92,7 +92,8 @@ header {
 
 .menu_title {
   border-radius: 29.5px;
-  box-shadow: inset -9.77px 9.77px 9.77px 0px rgba(255, 255, 255, 0.1),inset 9.77px -9.77px 9.77px 0px rgba(194, 194, 194, 0.1);
+  box-shadow: inset -9.77px 9.77px 9.77px 0px rgba(255, 255, 255, 0.1),
+    inset 9.77px -9.77px 9.77px 0px rgba(194, 194, 194, 0.1);
   backdrop-filter: blur(19.53px);
   background: rgba(255, 255, 255, 0.5);
   color: rgb(0, 0, 0);
@@ -118,7 +119,8 @@ header {
 
 .mobile_menu__item {
   border-radius: 29.5px;
-  box-shadow: inset -9.77px 9.77px 9.77px 0px rgba(255, 255, 255, 0.1),inset 9.77px -9.77px 9.77px 0px rgba(194, 194, 194, 0.1);
+  box-shadow: inset -9.77px 9.77px 9.77px 0px rgba(255, 255, 255, 0.1),
+    inset 9.77px -9.77px 9.77px 0px rgba(194, 194, 194, 0.1);
   backdrop-filter: blur(19.53px);
   background: rgba(255, 255, 255, 0.5);
 
@@ -197,4 +199,5 @@ header {
     display: block;
     cursor: pointer;
   }
+
 }
