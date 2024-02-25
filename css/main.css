@@ -179,7 +179,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 0;
+    padding: 35px 0;
+  }
+  .nav_logo img {
+    width: 71px;
   }
   .nav_lists {
     display: flex;
@@ -625,6 +628,90 @@ footer {
 @media screen and (max-width: 420px) {
   .swiper-slide {
     width: 100%;
+  }
+}
+.hero {
+  background-image: url("../../../../assets/images/home-hero@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 415px;
+  position: relative;
+  background-position: center;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  top: -20px;
+}
+
+.hero-btn-1 {
+  background: rgb(0, 64, 221);
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  background: rgb(0, 64, 221);
+  gap: 6px;
+}
+
+.hero-btn-2 {
+  background-color: white !important;
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #000000;
+  border-radius: 50px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  background: rgb(0, 64, 221);
+  gap: 6px;
+}
+
+@media only screen and (max-width: 550px) {
+  .hero {
+    background-image: url("../../../../assets/images/hero-home-res.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 415px;
+    position: relative;
+    background-position: top;
+  }
+  .hero-btns {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: -20px;
+  }
+  .hero-btn-1 {
+    background: rgb(0, 64, 221);
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    background: rgb(0, 64, 221);
+    gap: 6px;
+  }
+  .hero-btn-2 {
+    background-color: white !important;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #000000;
+    border-radius: 50px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    background: rgb(0, 64, 221);
+    gap: 6px;
   }
 }
 .portfolio_hero__title {

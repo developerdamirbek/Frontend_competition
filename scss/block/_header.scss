@@ -69,9 +69,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 0;
+    padding: 35px 0;
   }
-
+  .nav_logo img {
+    width: 71px;
+  }
   .nav_lists {
     display: flex;
     align-items: center;
