@@ -99,4 +99,39 @@ body {
 
 footer {
   margin-top: auto;
+}
+
+header {
+  background: #000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 193px;
+  padding: 0 65px;
+}
+
+.nav_lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 33px;
+}
+
+.nav_list {
+  display: flex;
+  gap: 33px;
+  align-items: center;
+}
+
+.nav_list-item-link {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */
