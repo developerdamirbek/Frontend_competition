@@ -762,7 +762,7 @@ footer {
   margin-bottom: 30px;
 }
 
-.swiper-slide {
+.slide-item {
   border: 1px solid #fff;
   padding: 40px;
   -webkit-transition: all 0.3s;
@@ -770,7 +770,7 @@ footer {
   max-width: 406px;
   height: 510px;
 }
-.swiper-slide:hover {
+.slide-item:hover {
   background: url(../../../../assets/images/slide-bg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -808,7 +808,7 @@ footer {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
-  max-width: 305px;
+  width: 305px;
 }
 
 .slider_btn {
@@ -851,8 +851,8 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-  .swiper-slide {
-    max-width: 100%;
+  .slide-item {
+    width: 100vw;
   }
 }
 .portfolio_hero__title {
@@ -1035,4 +1035,8 @@ footer {
     line-height: 20px;
     padding: 8px 15px 8px 13px;
   }
+}
+.modal {
+  height: 100vh;
+  width: 100wh;
 }/*# sourceMappingURL=main.css.map */
