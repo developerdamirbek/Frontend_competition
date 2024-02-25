@@ -13,3 +13,17 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-scrollbar',
     },
 });
+
+// Modal settings
+
+const openMenu = document.querySelector(".menu_btn")
+const closeMenu = document.querySelector(".close_btn")
+const menuModal = document.querySelector("#menu_modal")
+
+openMenu.addEventListener("click", () => {
+    menuModal.style.display = 'block'
+})
+
+closeMenu.addEventListener("click", () => {
+    menuModal.style.display = 'none'
+})

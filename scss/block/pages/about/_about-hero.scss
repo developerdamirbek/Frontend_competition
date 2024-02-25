@@ -6,6 +6,7 @@
   line-height: 48px;
   margin-bottom: 51px;
   padding-top: 65px;
+  margin-top: 157px;
 }
 
 
@@ -42,4 +43,11 @@
   line-height: 48px;
   margin-bottom: 30px;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 580px) {
+  .about_hero__title {
+    margin-top: 103px;
+  }
+  
 }
