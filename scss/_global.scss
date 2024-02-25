@@ -41,7 +41,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: "Manrope";
-
 }
 
 .container {
@@ -53,9 +52,10 @@ body {
   padding-right: 20px;
 }
 .wrapper {
-  height: 100vh;
   display: flex;
   flex-direction: column;
+}
+.main_bg {
   background-image: url(../assets/images/main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
